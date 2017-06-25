@@ -1,0 +1,222 @@
+.tlt-table-container .hide {
+    display: none;
+}
+
+.tlt-table-container * {
+    box-sizing: border-box;
+}
+
+.tlt-page-container * {
+    box-sizing: border-box;
+}
+
+.tlt-table-container {
+    width: 100%;
+    font-family: 'Microsoft YaHei', 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.tlt-page-container {
+    font-family: 'Microsoft YaHei', 'Open Sans', sans-serif;
+    color: #797979;
+    font-size: 13px;
+}
+
+.tlt-table-container table {
+    display: table;
+    width: 100%;
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.tlt-table-container .log-list {
+    overflow-x: scroll;
+}
+
+.tlt-table-container .log-list .log-row {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.tlt-table-container .log-list .log-row:nth-child(even) {
+    background-color: #F1F2F7;
+}
+
+.tlt-table-container .log-list .log-row > .item {
+    height: 100%;
+    text-align: left;
+    padding: 6px 20px;
+    white-space: nowrap;
+}
+
+.tlt-table-container .log-list .log-row > .item.date {
+    position: relative;
+    width: 150px;
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 5px;
+    border-right: 1px solid #E5E5E5;
+    text-align: center;
+}
+
+.tlt-table-container .log-list .log-row > .item.date:after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: -6px;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #B1BBB8;
+    border-radius: 50%;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.tlt-table-container .log-list .log-row > .item .title {
+    color: #989A9C;
+}
+
+.tlt-table-container .log-list .log-row > .item .value {
+    color: #3484F5;
+}
+
+.tlt-table-container .log-list .log-row > .item strong {
+    color: #000;
+    margin-right: 20px;
+}
+
+.tlt-table-container .log-list .log-row > .item i {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tlt-table-container .log-list .log-row > .item .detail {
+    border-radius: 5px;
+    border-radius: 5px;
+    width: 500px;
+    white-space: initial;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+.tlt-table-container .log-list .log-row:nth-child(even) > .item .detail {
+    background: #fff;
+}
+
+.tlt-table-container .log-list .log-row:nth-child(odd) > .item .detail {
+    background: #F1F2F7;
+}
+
+.tlt-table-container .log-list .log-row > .item .detail .item {
+    display: inline-block;
+    line-height: 34px;
+    margin-right: 20px;
+}
+
+.tlt-table-container i.tlt-arrow-down {
+    display: inline-block;
+    width:0;
+    height:0;
+    border-width:7px 7px 0;
+    border-style:solid;
+    border-color:#797979 transparent transparent;
+    position:relative;
+    margin-left: 10px;
+}
+
+.tlt-table-container i.tlt-arrow-up {
+    display: inline-block;
+    width:0;
+    height:0;
+    border-width:0 7px 7px;
+    border-style:solid;
+    border-color: transparent transparent #797979;
+    position:relative;
+    margin-left: 10px;
+}
+
+.tlt-page-container:before {
+    display: table;
+    content: "";
+    box-sizing: border-box;
+}
+
+.tlt-page-container .tlt-page-info {
+    padding: 8px 15px;
+}
+
+.tlt-page-container .tlt-pagination {
+    display: inline-block;
+    float: right;
+    margin-right: 15px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.tlt-page-container .tlt-pagination ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.tlt-page-container .tlt-pagination li {
+    list-style: none;
+    float: left;
+    margin: 0 1px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.tlt-page-container .tlt-pagination li a {
+    color: #797979;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tlt-page-container .tlt-pagination li.disabled a {
+    color: #c7c7c7;
+}
+
+.tlt-page-container .tlt-pagination li.active a,
+.tlt-page-container .tlt-pagination li:hover a {
+    background-color: #eee;
+}
+
+.tlt-pagesize-label {
+    display: inline-block;
+    max-width: 100%;
+    font-weight: 200;
+    padding: 15px;
+    margin-top: -5px;
+    float: right;
+}
+
+.tlt-pagesize-label select {
+    height: 30px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 3px;
+}
+
+.tlt-page-container .col-lg-4,
+.tlt-page-container .col-lg-8 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+.tlt-page-container .col-lg-4 {
+    width: 33.33333333%;
+}
+
+.tlt-page-container .col-lg-8 {
+    width: 66.66666667%
+}

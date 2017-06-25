@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timeline table Test</title>
+    <link rel="stylesheet" href="src/timelinetable.css">
+</head>
+<body>
+<h1>Timeline Table</h1>
+<hr>
+<div id="tlt-container"></div>
+<script src="src/timelinetable.js"></script>
+<script>
+    var data = [];
+    for (var i = 0; i < 100; i++) {
+      data.push({
+        date: '2017-06-01 00:00:00',
+        desc: '描述文字' + (i + 1),
+        detail: '详细内容' + (i + 1)
+      });
+    }
+var tlt = new TimeLineTable(document.getElementById('tlt-container'), {
+  data: data
+});
+</script>
+</body>
+</html>

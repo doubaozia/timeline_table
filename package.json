@@ -1,0 +1,28 @@
+{
+  "name": "timeline",
+  "version": "1.0.0",
+  "description": "Timeline tables allow you create complex data show for logs.",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/doubaozia/timeline_table.git"
+  },
+  "keywords": [
+    "timelinetable"
+  ],
+  "author": "doudou",
+  "license": "SEE LICENSE IN https://github.com/doubaozia/timeline_table/blob/master/LICENSE",
+  "bugs": {
+    "url": "https://github.com/doubaozia/timeline_table/issues"
+  },
+  "homepage": "https://github.com/doubaozia/timeline_table#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-mini-css": "0.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0"
+  }
+}
