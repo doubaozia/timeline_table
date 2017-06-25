@@ -34,6 +34,7 @@ Timeline tables allow you create complex data show for logs.
 ## Options
 |option|type|required|default|comment|
 |---|---|---|---|---|
+|data|Array|true||data arrays will show|
 |dateField|String|false|'date'|the date key name in data|
 |pageSizes| Array|false|[10, 20, 30, -1]|the page size array, -1 means show all data|
 |showPages|Number|false |5|maximum pages once show|
