@@ -16,6 +16,7 @@ Timeline tables allow you create complex data show for logs.
 <div id="tlt-container"></div>
 ```
 4. initialise
+> data is required
 ```
   var data = [];
   for (var i = 0; i < 100; i++) {
@@ -29,3 +30,10 @@ Timeline tables allow you create complex data show for logs.
     data: data
   });
 ```
+
+## Options
+|option|type|required|default|comment|
+|---|---|---|---|---|
+|dateField|String|false|'date'|the date key name in data|
+|pageSizes| Array|false|[10, 20, 30, -1]|the page size array, -1 means show all data|
+|showPages|Number|false |5|maximum pages once show|
