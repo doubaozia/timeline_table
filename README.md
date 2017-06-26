@@ -1,6 +1,6 @@
 # timeline_table
 Timeline tables allow you create complex data show for logs.
-![image](https://github.com/doubaozia/timeline_table/blob/master/demo.png)
+<img src='https://github.com/doubaozia/timeline_table/blob/master/demo.png' width='730'>
 
 ## Quick start
 
