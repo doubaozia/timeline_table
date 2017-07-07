@@ -1,24 +1,24 @@
 # timeline_table
 Timeline tables allow you create complex data show for logs.
-![image](https://github.com/doubaozia/timeline_table/blob/master/demo.png)
+<img src='https://github.com/doubaozia/timeline_table/blob/master/demo.png' width='730'>
 
 ## Quick start
 
 1. include the css file in the html head
-```
+```html
 <link rel="stylesheet" href=".../timelinetable.min.css">
 ```
 2. include the js file in before the end of body tag
-```
+```html
 <script src=".../timelinetable.min.js"></script>
 ```
 3. create the container with a id attribute
-```
+```html
 <div id="tlt-container"></div>
 ```
 4. initialise
 > data is required
-```
+```javascript
   var data = [];
   for (var i = 0; i < 100; i++) {
     data.push({
