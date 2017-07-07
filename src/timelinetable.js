@@ -222,13 +222,14 @@ TimeLineTable.prototype = {
     var arrow = this.container.querySelectorAll('.log-row i');
 
     var timeline = this;
-    var page
+    var page;
 
     pageSizeSelect.addEventListener('change', function(e) {
 
       var pageSize = parseInt(e.target.value);
 
       timeline.pageSize = pageSize;
+      timeline.curPage = 1;
       timeline.update();
     }, false);
 

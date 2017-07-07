@@ -1,6 +1,6 @@
 {
   "name": "timeline",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Timeline tables allow you create complex data show for logs.",
   "scripts": {
     "build": "gulp"
